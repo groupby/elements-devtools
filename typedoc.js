@@ -1,4 +1,4 @@
 module.exports = {
   "mode": "modules",
-  "readme": "none",
+  "out" "docs ./packages/@sfx"
 };
