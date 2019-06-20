@@ -1,5 +1,5 @@
 module.exports = {
-  "name": "SFX",
+  "name": "SF-X",
   "mode": "modules",
   "out": "./docs",
   "readme": "none",
