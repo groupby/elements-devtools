@@ -1,6 +1,6 @@
 module.exports = {
   "mode": "modules",
-  "out": "./docs ./packages/@sfx",
+  "out": "./docs",
   "ignoreCompilerErrors": true,
-  "exclude": ['**/node_modules/**'],
+  "exclude": ['**/test/**', '**/node_modules/**'],
 };
