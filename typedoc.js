@@ -1,4 +1,5 @@
 module.exports = {
+  "name": "SFX",
   "mode": "modules",
   "out": "./docs",
   "ignoreCompilerErrors": true,
