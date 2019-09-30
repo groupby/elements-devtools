@@ -1,5 +1,4 @@
-const path = require('path');
-console.log('path', path)
+const path = require('path')
 module.exports = {
   env: {
     browser: true,
@@ -23,20 +22,20 @@ module.exports = {
     sourceType: "module",
     tsconfigRootDir: __dirname,
     project: [
-      path.resolve(__dirname, "./tsconfig.json"),
+      path.resolve(__dirname, "../../tsconfig.json"),
     ]
   },
   plugins: [
     "@typescript-eslint"
   ],
   settings: {
-    "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
+    "import/extensions": [".ts", ".tsx"],
     "import/parsers": {
       "@typescript-eslint/parser": [".ts", ".tsx"]
     },
     "import/resolver": {
       "node": {
-        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+        "extensions": [".ts", ".tsx"]
       }
     }
   },
@@ -45,6 +44,7 @@ module.exports = {
     "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/no-useless-constructor": "error",
     "@typescript-eslint/unbound-method": "off",
+    "@typescript-eslint/no-inferrable-types": "off",
     "class-methods-use-this": "off",
     "comma-dangle": ["error", {
       "arrays": "always-multiline",
@@ -68,3 +68,4 @@ module.exports = {
     }]
   }
 }
+
