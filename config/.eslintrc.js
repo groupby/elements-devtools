@@ -55,7 +55,14 @@ module.exports = {
     }],
     "func-style": "off",
     "object-curly-newline": "off",
-    "max-len": ["error", { "code": 120 }],
+    "max-len": ["error", 120,
+      {
+        ignoreUrls: true,
+        ignoreComments: false,
+        ignoreRegExpLiterals: true,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: true,
+      }],
     "no-nested-ternary": "off",
     "no-unused-vars": "off",
     "no-param-reassign": ["error", { "props": false }],
@@ -63,7 +70,7 @@ module.exports = {
     "no-useless-constructor": "off",
     "space-before-function-paren": ["error", {
       "anonymous": "never",
-      "named": "always",
+      "named": "never",
       "asyncArrow": "always"
     }]
   }
