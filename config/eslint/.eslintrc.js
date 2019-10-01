@@ -22,7 +22,7 @@ module.exports = {
     sourceType: "module",
     tsconfigRootDir: __dirname,
     project: [
-      path.resolve(__dirname, "../../tsconfig.json"),
+      path.resolve(__dirname, "../../../tsconfig.json"),
     ]
   },
   plugins: [
@@ -54,20 +54,12 @@ module.exports = {
       "functions": "never"
     }],
     "func-style": "off",
-    "object-curly-newline": "off",
-    "max-len": ["error", 120,
-      {
-        ignoreUrls: true,
-        ignoreComments: false,
-        ignoreRegExpLiterals: true,
-        ignoreStrings: true,
-        ignoreTemplateLiterals: true,
-      }],
+    "max-len": ["error", 120, { ignoreUrls: true, ignoreComments: false, ignoreRegExpLiterals: true, ignoreStrings: true, ignoreTemplateLiterals: true }],
     "no-nested-ternary": "off",
-    "no-unused-vars": "off",
+    "no-unused-vars": "off", // superseded by @typescript-eslint/no-unused-vars
     "no-param-reassign": ["error", { "props": false }],
     "no-plusplus": "off",
-    "no-useless-constructor": "off",
+    "no-useless-constructor": "off", // superseded by @typescript-eslint/no-unused-vars
     "space-before-function-paren": ["error", {
       "anonymous": "never",
       "named": "never",
