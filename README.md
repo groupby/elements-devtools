@@ -1,5 +1,5 @@
 # GroupBy Elements Developer Tools
-This repository contains various scripts that support the distribution and development of the [GroupBy Elements Logic](https://github.com/groupby/sfx-logic) and [GroupBy Elements View](https://github.com/groupby/sfx-view) repositories.
+This repository contains various scripts that support the distribution and development of the [GroupBy Elements Logic](https://github.com/groupby/elements-logic) and [GroupBy Elements View](https://github.com/groupby/elements-view) repositories.
 
 ## Scripts
 
