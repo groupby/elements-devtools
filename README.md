@@ -7,4 +7,4 @@ This repository contains various scripts that support the distribution and devel
 This script installs dependencies and builds all the packages contained within a GB Elements monorepo. This script assumes that a [yarn workspace](https://yarnpkg.com/lang/en/docs/workspaces/) is set up and that the root of the workspace is one directory above the directory containing this script.
 
 ### `build.sh`
-This script builds a single package. It is meant to be run at the root of an GB Elements package. It is assumed that `typescript` is installed as a devDependency and this script is being run as an npm script.
+This script builds a single package. It is meant to be run at the root of a GB Elements package. It is assumed that `typescript` is installed as a devDependency and this script is being run as an npm script.
