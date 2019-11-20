@@ -59,6 +59,7 @@ module.exports = {
     "no-unused-vars": "off", // superseded by @typescript-eslint/no-unused-vars
     "no-param-reassign": ["error", { "props": false }],
     "no-plusplus": "off",
+    "no-underscore-dangle": "off",
     "no-useless-constructor": "off", // superseded by @typescript-eslint/no-unused-vars
     "space-before-function-paren": ["error", {
       "anonymous": "never",
@@ -67,4 +68,3 @@ module.exports = {
     }]
   }
 }
-
